@@ -15,13 +15,13 @@ It performs **real-time scanning, security scoring, and intelligent risk detecti
   * Windows (`netsh`)
   * Linux (`nmcli`)
 
-**Security Analysis Engine**
+**SECURITY ANALYSIS ENGINE**
 
   * Risk scoring (0–100)
   * Network classification
   * Security interpretation
 
-**Threat & Risk Detection**
+**THREAT & RISK DETECTION**
 
   * Open network detection
   * Weak encryption (WEP / legacy WPA)
@@ -29,12 +29,12 @@ It performs **real-time scanning, security scoring, and intelligent risk detecti
   * Duplicate SSID detection *(possible evil twin)*
   * Channel congestion analysis
 
-  **Environment Summary**
+  **ENVIRONMENT SUMMARY**
 
   * Overall risk level
   * Secure vs vulnerable networks breakdown
 
-  **Export Capability**
+  **EXPORT CAPABILITY**
 
   * CSV report generation
 
@@ -50,7 +50,7 @@ It performs **real-time scanning, security scoring, and intelligent risk detecti
 
 ---
 
-## Installation
+## 📩Installation
 
 ```bash
 git clone https://github.com/cybxrghoul/AegisWiFi.git
@@ -62,13 +62,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Windows
+### WINDOWS
 
 ```powershell
 python aegiswifi.py
 ```
 
-### Linux (Kali / Parrot / Ubuntu)
+### LINUX (Kali / Parrot / Ubuntu)
 
 ```bash
 python3 aegiswifi.py
@@ -76,7 +76,7 @@ python3 aegiswifi.py
 
 ---
 
-## Example Output
+## EXAMPLE OUTPUT
 
 ```
 [1] HomeLab_5G
@@ -97,7 +97,7 @@ python3 aegiswifi.py
 
 ---
 
-## Security & Privacy Notice
+## 🔐SECURITY & PRIVACY NOTICE 
 
 * This tool performs **passive analysis only**
 * No packet injection or intrusive actions are performed
@@ -105,7 +105,7 @@ python3 aegiswifi.py
 
 ---
 
-## Limitations
+## LIMITATIONS
 
 * Windows requires **Location Services enabled** for WiFi scanning
 * Virtual machines may not detect WiFi interfaces without hardware passthrough
@@ -113,7 +113,7 @@ python3 aegiswifi.py
 
 ---
 
-## Future Improvements
+## FUTURE IMPROVEMENTS
 
 * Go-based high-performance scanning module
 * Real-time monitoring mode
@@ -123,7 +123,7 @@ python3 aegiswifi.py
 
 ---
 
-## Author
+## AUTHOR
 
 **Shiva Guru**
 Cybersecurity Enthusiast | Detection Engineering | OSINT
