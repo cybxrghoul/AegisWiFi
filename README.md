@@ -1,6 +1,6 @@
 # 🛡️ AegisWiFi — Wireless Security Analyzer
 
-## Working Demo
+## Workflow
 ![AegisWiFi](screenshots/aegiswifi.gif)
 AegisWiFi is a **cross-platform wireless network security analysis tool** designed to identify risks, misconfigurations, and anomalies in nearby WiFi environments.
 
